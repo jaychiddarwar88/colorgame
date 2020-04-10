@@ -1,0 +1,34 @@
+body{
+	background: #232323;
+}
+
+#top_div{
+	background-color: #327FA8;
+	margin : 0 0 0 0;
+	text-align : center;
+	color : white;
+}
+
+.top_div_h{
+
+}
+
+#middle_div{
+	background-color: white;
+	margin : 0 0 0 0;
+	text-align : center;
+	color : #232323;
+}
+
+.square{
+	background :purple;
+	width: 30%;
+	padding-bottom: 30%;
+	float : left;
+	margin : 1.66%;
+}
+
+#container{
+	max-width: 600px;
+	margin :0 auto;
+}
