@@ -42,14 +42,15 @@ for(var i = 0; i < 6; i++){
 
 function colorChecker(){
 	if(gameOver){
-		alert("Game is Over ! Please refresh to restart the Game !");
+		alert("Game is Over ! Click Okay to Refresh page and continue!");
+		location.reload();
 	}
 	else{
 		if(this.style.backgroundColor == ansColor){
 		document.getElementById("ansOutput").textContent = "Correct";
 		document.getElementById("ansOutput").style.color= "green" ;
 		gameOver = true;
-		}
+	}
 		else{
 			this.style.visibility = "hidden";
 			document.getElementById("ansOutput").textContent = "Wrong";
